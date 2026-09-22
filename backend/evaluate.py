@@ -5,7 +5,7 @@ import time
 import argparse
 
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyDXr43n01wzVvDaq0uaQ4JG6u73ptxU4o8"
+os.environ["GEMINI_API_KEY"] = ""
 
 BASE     = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE, "data")
