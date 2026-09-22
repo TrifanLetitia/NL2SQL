@@ -51,7 +51,7 @@ except Exception as e:
     mt5_model     = None
     mt5_tokenizer = None
 
-GEMINI_API_KEY   = os.getenv("GEMINI_API_KEY", "AIzaSyDXr43n01wzVvDaq0uaQ4JG6u73ptxU4o8")
+GEMINI_API_KEY   = os.getenv("GEMINI_API_KEY", "")
 gemini_available = bool(GEMINI_API_KEY)
 if gemini_available:
     print("[OK] Prompt Engineering (Gemini API)")
